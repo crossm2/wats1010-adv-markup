@@ -1,1 +1,137 @@
 /* Styles for the Advanced Markup assignment. */
+
+body {
+	background-image: url('wood.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	font-family:andale mono, monospace;
+	color: antiquewhite;
+}
+nav ul li {
+	display: inline; 
+	border: solid;
+	border-color: darkcyan;
+	border-width: 2px;
+	border-radius: 30px;
+	padding: 5px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color: olive;
+}
+#sidebar ul li {
+	display: inline;
+}
+.facebook img {
+	height: 60px;
+	width: 60px;
+	border-color: white;
+	border: solid;
+	border-radius:25px;
+}
+.pinterest img {
+	height: 60px;
+	width: 60px;
+	border-color: white;
+	border: solid;
+	border-radius: 25px;
+}
+
+.twitter img {
+	height: 60px;
+	width: 60px;
+	border-color: white;
+	border: solid;
+	border-radius: 25px;
+}
+nav ul li:hover {
+	background-color:darkcyan;
+}
+a.active {
+	font-weight: bold;
+	color: darkred;
+	text-decoration: none;
+}
+a {
+	color: goldenrod;
+	text-decoration: none;
+}
+
+#sidebar {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	width: 200px;
+	background-color: cadetblue;
+	padding: 10px;
+	margin-right: 5px;
+	border: outset;
+	border-image: url('old_paper.jpg');
+	border-width: 10px;
+	border-radius: 25px;
+}
+#sidebar ul li a:hover {
+	color: darkred;
+}
+
+.poem {
+	list-style-type: none;
+}
+.poem li {
+	font-size: large;
+	line-height: 1.8;
+}
+div.photo {
+	float: left;
+	border-style: solid;
+	border-width: 4px;
+	border-color: darkred;
+	width: 256px;
+	margin-right: 10px;
+}
+div {
+	text-align: center;
+	color:darkred;
+}
+#content {
+	background-color:olivedrab;
+	width: 880px;
+	margin: 10px;
+	padding: 15px;
+	border: solid;
+	border-image: url('old_paper.jpg');
+	border-radius: 25px;
+	border-width: 10px;
+}
+
+h1 {
+	background-color: darkcyan;
+	width: 880px;
+	margin: 10px;
+	padding: 15px;
+	font-family: oldtown, fantasy;
+	border: solid;
+	border-image: url('old_paper.jpg');
+	border-radius: 25px;
+	border-width: 10px;
+}
+h2 {
+	font-family: oldtown, fantasy;
+}
+
+
+
+.bibliography {
+	background-color: darkcyan;
+	width: 880px;
+	margin: 5px;
+	padding: 20px;
+	border: solid;
+	border-image: url('old_paper.jpg');
+	border-width: 10px;
+	border-radius: 25px;
+		
+}
+.smalltext {
+	color: antiquewhite;
+	font-weight: bold;
+}
